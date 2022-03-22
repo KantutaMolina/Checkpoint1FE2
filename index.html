@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Quais filmes você já viu? 🎬</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="title">
+            <h1>Quais filmes você já viu?</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="form-wrapper">
+            <form id="formulario">
+
+                <div class="dadosfilme">
+                    <label for="titulo">Título do filme</label>
+                    <input type="text" maxlength="45" name="titulo" id="titulo" placeholder="Digite o nome do filme"></input>
+
+
+                    <label for="descricao">Descrição do filme</label>
+                    <textarea name="descricao" maxlength="300" id="descricao" cols="20" rows="5"
+                        placeholder="Digite uma pequena descrição do filme"></textarea>
+
+                    <label for="link">Foto do filme</label>
+                    <input type="text" name="link" id="link" placeholder="Coloque o link da imagem"></input>
+
+
+                </div>
+
+
+
+
+                <fieldset>
+                    <legend> Genêro do filme:</legend>
+                    <div class="genero">
+                        <input type="radio" name="genero" id="romance" value="Romance" class="tipo">
+                        <label for="romance">Romance</label>
+
+                        <input type="radio" name="genero" id="acao" value="Ação" class="tipo">
+                        <label for="acao">Ação</label>
+
+                        <input type="radio" name="genero" id="terror" value="Terror" class="tipo">
+                        <label for="terror">Terror</label>
+
+                        <input type="radio" name="genero" id="comedia" value="Comédia" class="tipo">
+                        <label for="comedia">Comédia</label>
+
+                        <input type="radio" name="genero" id="ficcao" value="Ficção" class="tipo">
+                        <label for="ficcao">Ficção</label>
+                    </div>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> Você indica esse filme? </legend>
+                    <div class="indicacao">
+                        <input type="checkbox" name="sim" id="sim">
+                        <label for="sim">Sim</label>
+
+
+                    </div>
+                </fieldset>
+
+                <button id="enviarform" type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+
+            </form>
+        </div>
+
+
+        <div class="usuario">
+            <h3>Filme:</h3>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+    <script src="./js/script2.js"></script>
+</body>
+
+</html>

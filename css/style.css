@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  letter-spacing: 1px;
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 80px;
+  margin: 10px 0;
+}
+
+
+body  {
+ background-image: url(../img/film.jpg);
+ background-size: cover;
+ color: rgb(197, 190, 129);
+ font-weight: bold;
+ background-position: 0;
+ background-attachment: fixed;
+ font-family: 'Dosis';
+ background-color: #111;
+}
+
+.form-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrapper #formulario {
+  display: inline-block;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  background-color: #55573b67;   
+  border-radius: 1em;
+  padding-top: 1em;
+}
+
+label{
+  margin: 0px 10px 0 0;
+}
+
+.dadosfilme label {
+  display: block;
+}
+
+.usuario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usuario h3{
+  font-size: 2em;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.filmescard {
+  border: 2px solid rgb(56, 43, 43);
+  border-radius: 7px;
+  box-shadow: 0 0 3px 3px #181614;
+  width: 350px;
+  min-height : 500px;
+  background-image: linear-gradient(#775938, #271e14);  
+  color: rgb(197, 190, 129);
+  margin-bottom: 30px;
+}
+
+.filmescard img {
+width: 100%;
+
+}
+
+
+.filmescard p{
+  word-break: break-word;
+  padding: 0 10px;
+}
+
+.filmescard h4{
+  padding: 0 10px;
+}
+
+
+
+
+input, textarea, fieldset{
+  margin-bottom: 1.5em;
+  border-radius: 0.5em;
+  border:none;
+}
+
+fieldset legend{
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  font-size:15px;
+  font-family:Arial;
+  width:80px;
+  height:30px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#54381e;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px #a6827e;
+  text-shadow:inset 0px 1px 0px #54381e;
+  background:linear-gradient(#7d5d3b, #634b30);
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background: linear-gradient(#634b30, #7d5d3b);
+}
+
+
+
